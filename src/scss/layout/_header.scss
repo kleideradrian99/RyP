@@ -1,0 +1,80 @@
+.no-webp .inicio {
+    background-image: url(../img/ima2.jpg);
+}
+
+.webp .inicio {
+    background-image: url(../img/ima2.jpg );
+}
+
+.no-webp .casamos {
+    background-image: url(../img/FondoMatas.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.webp .casamos {
+    background-image: url(../img/FondoMatas.jpg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header {
+    padding: 1rem 0 3rem 0;
+    &.inicio {
+        background-position: bottom bottom;
+        background-size: cover;
+        @include tablet {
+            min-height: 70rem;
+        }
+        .contenido-header {
+            @include tablet {
+                background-position: bottom bottom;
+                background-size: cover;
+                min-height: 70rem;
+            }
+        }
+    }
+}
+
+.main {
+    padding: 1rem 0 3rem 0;
+    &.casamos {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        @include tablet {
+            min-height: 70rem;
+        }
+        .contenido-header {
+            @include tablet {
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                min-height: 70rem;
+            }
+        }
+    }
+}
+
+.contenidoletra {
+    text-align: center;
+    .titulo {
+        font-weight: bold;
+        font-size: 4rem;
+    }
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+        text-align: center;
+        color: $blanco;
+        font-weight: $bold;
+        line-height: 2;
+        padding-bottom: 180px;
+    }
+}

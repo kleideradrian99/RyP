@@ -978,3 +978,283 @@ input[type=radio] {
 }
 
 /*# sourceMappingURL=app.css.map */
+
+
+.content-header {
+    position: relative;
+    height: 384px;
+}
+
+.img-boda1 {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-image: url(../img/ima2.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 700px;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 0px;
+    z-index: 0;
+}
+
+.texto-boda {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    width: 1000px;
+    z-index: 1000;
+}
+
+.texto-boda div:first-child {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.texto-boda div:last-child {
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Inspiration', cursive;
+    font-weight: 200;
+
+}
+
+.conten-opacity {
+    background-color: #ECF0F1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.5;
+    border-top-left-radius: 170px;
+}
+
+.content-description-boda {
+    background-color: #ECF0F1;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.font-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.font-date {
+    font-family: 'Inspiration', cursive;
+    font-size: 80px;
+
+}
+
+.text-two {
+    font-size: 150px;
+}
+
+.display-clock .cartel .content1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 300 !important;
+}
+
+.display-clock .cartel {
+    width: auto;
+}
+
+
+.display-clock .cartel .content1 div:first-child {
+    margin-right: 5px;
+}
+
+.display-clock .cartel .border {
+    border-right: 2px solid;
+    padding-right: 10px;
+}
+
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.content-map {
+    padding: 30px;
+}
+
+.border-rigth {
+    border-right: 2px solid #ECF0F1;
+    ;
+}
+
+
+.circle {
+    background-color: #ECF0F1;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px #ECF0F1;
+
+}
+
+.content-address {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.content-address div:first-child {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.content-address div:last-child {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content-description-import {
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.conten-nuestra-hgistorua {
+    display: flex;
+    justify-content: row;
+}
+
+.conten-nuestra-hgistorua div:first-child {
+    width: 100px;
+    position: relative;
+}
+
+.conten-nuestra-hgistorua div:last-child {
+    width: 100%;
+}
+
+.div-title-nuestra {
+    /* transform: rotate(-90deg) translate(30%, 50%); */
+    transform: rotate(-90deg) translate(0%, 8%);
+    font-family: 'Inspiration', cursive;
+    font-size: 100px;
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 500px !important;
+
+}
+
+.conten-nuestra-hgistorua div {
+    /* flex: auto; */
+}
+
+.titleVestimenta {
+    font-family: 'Inspiration', cursive;
+    font-size: 70px;
+    margin-top: -50px;
+}
+
+.title-codigo {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.center-componente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    height: 400px;
+}
+
+.title-vestuario-1 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.title-vestuario-2 {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.personalization-hr {
+    width: 100px;
+    border-top: 3px solid #333;
+}
+
+.title-confirmation {
+    font-weight: 300;
+    font-size: 40px;
+
+}
+
+
+@media (max-width:768px) {
+    .img-boda1 {
+        right: 10px;
+        top: 10px;
+        left: 10px;
+        border-top-left-radius: 170px;
+        border-top-right-radius: 170px;
+        width: 100%;
+    }
+
+    .texto-boda {
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        top: 150px;
+        width: 100%;
+    }
+
+
+    .texto-boda div:first-child {
+        font-size: 20px;
+    }
+
+    .texto-boda div:last-child {
+        font-size: 100px;
+
+    }
+
+    .border-rigth {
+        border-right: none;
+    }
+
+    .center-componente {
+        height: auto !important;
+        margin: 5px;
+    }
+
+}

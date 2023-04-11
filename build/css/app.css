@@ -988,6 +988,7 @@ input[type=radio] {
 
 .img-boda1 {
     position: absolute;
+    filter: grayscale(1);
     right: 0;
     top: 10px;
     background-image: url(../img/ima2.jpg);
@@ -1032,7 +1033,7 @@ input[type=radio] {
     opacity: 0.5;
     border-top-left-radius: 170px; */
 
-    background-color: #4e5051;
+    /* background-color: #4e5051; */
     position: absolute;
     left: 0;
     right: 0;
@@ -1268,6 +1269,7 @@ input[type=radio] {
         border-top-left-radius: 170px;
         border-top-right-radius: 170px;
         width: 100%;
+        filter: grayscale(1);
     }
 
      .conten-opacity{

@@ -19,6 +19,10 @@ label {
     cursor: pointer;
 }
 
+/* ************imagen ************************* */
+
+/* ******************************* */
+
 /* Map */
 
 .map-responsive {
@@ -986,6 +990,83 @@ input[type=radio] {
     height: 384px;
 }
 
+.img-principal {
+    position: absolute;
+    filter: grayscale(1);
+    right: 0;
+    top: 10px;
+    background-size: cover;
+    height: 400px;
+    width: 700px;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 0px;
+}
+
+.img-secondary {
+    position: absolute;
+    filter: grayscale(1);
+    right: 0;
+    top: 10px;
+    background-size: cover;
+    height: 400px;
+    width: 700px;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 0px;
+}
+
+/* @media (max-width:1280px) {
+    .article {
+        position: relative;
+        width: 250px;
+        transition: all .3s ease;
+    }
+
+    .article img:first-child {
+        box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+        border-radius: 4px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .article img:last-child {
+        position: absolute;
+        width: 200px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: translateY(25%);
+        transition: .3s ease;
+        opacity: 0;
+    }
+
+    .article:hover {
+        transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+    }
+
+    .article:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(to bottom, transparent 10%,
+                rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0)95%);
+        opacity: 0;
+        transition: all .3s ease;
+    }
+
+    .article:hover::before {
+        opacity: 1;
+    }
+
+    .article:hover img:last-child {
+        opacity: 1;
+        transform: translateY(10%);
+    }
+
+} */
+
 .img-boda1 {
     position: absolute;
     filter: grayscale(1);
@@ -1191,9 +1272,6 @@ input[type=radio] {
 
 }
 
-.conten-nuestra-hgistorua div {
-    /* flex: auto; */
-}
 
 .titleVestimenta {
     font-family: 'Inspiration', cursive;
@@ -1283,7 +1361,20 @@ iframe {
     border: none;
 }
 
+/* CELULAR */
 @media (max-width:375px) {
+    .img-principal {
+        position: initial;
+        filter: grayscale(1);
+        right: 0;
+        top: 10px;
+        background-size: cover;
+        height: 400px;
+        width: 700px;
+        border-top-left-radius: 170px;
+        border-bottom-left-radius: 0px;
+    }
+
     .map-here {
         margin-left: 0px;
     }

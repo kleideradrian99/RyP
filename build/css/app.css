@@ -1015,7 +1015,7 @@ input[type=radio] {
 }
 
 /* -------------------------------------------------------------------------- */
-    /* .article {
+/* .article {
         position: relative;
         width: 250px;
         transition: all .3s ease;
@@ -1451,7 +1451,27 @@ iframe {
     box-shadow: 0 0 20px gray;
 }
 
+.boton {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
 
+.boton a {
+    background: radial-gradient(#95aebb, #453f3f);
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #8e8e8e;
+}
+
+.boton a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 .parpadea {
     animation-name: parpadeo;

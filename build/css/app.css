@@ -1496,6 +1496,7 @@ input[type=radio] {
 
     .menu-options {
         justify-content: center;
+        font-size: 13px;
     }
 
 }

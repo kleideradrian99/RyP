@@ -1014,8 +1014,8 @@ input[type=radio] {
     border-bottom-left-radius: 0px;
 }
 
-/* @media (max-width:1280px) {
-    .article {
+/* -------------------------------------------------------------------------- */
+    /* .article {
         position: relative;
         width: 250px;
         transition: all .3s ease;
@@ -1063,9 +1063,9 @@ input[type=radio] {
     .article:hover img:last-child {
         opacity: 1;
         transform: translateY(10%);
-    }
+    } */
 
-} */
+/* -------------------------------------------------------------------------- */
 
 .img-boda1 {
     position: absolute;

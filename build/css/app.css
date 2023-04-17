@@ -1085,7 +1085,7 @@ input[type=radio] {
     position: absolute;
     left: 20px;
     top: 100px;
-    width: 1000px;
+    width: 70%;
     z-index: 1000;
 }
 
@@ -1354,23 +1354,27 @@ input[type=radio] {
     margin-left: 100px;
 }
 
-iframe {
+.paddin-iframe-movil {
+    padding: 130% 0 0 0
+}
+
+/* iframe {
     height: 400px;
     margin-left: -100px;
     width: 125%;
     border: none;
-}
+} */
 
 /* CELULAR */
 @media (max-width:375px) {
     .img-principal {
-        position: initial;
         filter: grayscale(1);
-        right: 0;
+        right: 0px;
+        left: 0px;
         top: 10px;
         background-size: cover;
         height: 400px;
-        width: 700px;
+        width: 100%;
         border-top-left-radius: 170px;
         border-bottom-left-radius: 0px;
     }
@@ -1391,14 +1395,69 @@ iframe {
     }
 }
 
+.viewmovil {
+    display: none;
+}
+
+.viewPc {
+    display: block;
+}
+
+.paddin-iframe-movil {
+    padding: 56.25% 0 0 0 !important;
+}
+
 @media (max-width:768px) {
+
+    .paddin-iframe-movil {
+        padding: 130% 0 0 0 !important;
+    }
+
+    .viewmovil {
+        display: block;
+    }
+
+    .viewPc {
+        display: none;
+    }
+
+    .div-title-nuestra {
+        transform: none;
+        font-family: 'Inspiration', cursive;
+        font-size: 70px;
+        width: 100%;
+        position: relative !important;
+        left: none;
+        right: none;
+        bottom: none;
+        top: none;
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .conten-nuestra-hgistorua {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conten-nuestra-hgistorua div:first-child {
+        width: 100%;
+        position: relative;
+    }
+
+    .conten-nuestra-hgistorua div:last-child {
+        width: 100%;
+    }
+
+
     .img-boda1 {
-        right: 10px;
+        right: 0px;
         top: 10px;
-        left: 10px;
+        left: 0px;
         border-top-left-radius: 170px;
         border-top-right-radius: 170px;
-        width: 100%;
+        width: 100% !important;
         filter: grayscale(1);
     }
 
@@ -1409,10 +1468,10 @@ iframe {
 
     .texto-boda {
         position: absolute;
-        left: 20px;
-        right: 20px;
-        top: 150px;
-        width: 100%;
+        left: 0px;
+        right: 0px;
+        top: 100px;
+        width: 100% !important;
         color: white;
     }
 
@@ -1437,6 +1496,7 @@ iframe {
 
     .menu-options {
         justify-content: center;
+        font-size: 13px;
     }
 
 }
@@ -1455,6 +1515,7 @@ iframe {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 15px;
+    transition: all 0.5s ease-out;
 }
 
 .boton a {
@@ -1462,11 +1523,13 @@ iframe {
     text-decoration: none;
     color: white;
     padding: 1rem;
-    border-radius: 20px;
-    box-shadow: 6px 6px 6px #8e8e8e;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #8e8e8e;
+      transition: all 0.5s ease-out;
+    
 }
 
-.boton a:hover{
+.boton a:hover {
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;

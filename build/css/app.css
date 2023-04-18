@@ -1,6 +1,12 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
+
+@font-face {
+    font-family: LoveLanguage;
+    src: url('../../build/font/LoveLanguage.ttf');
+}
+
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -1099,7 +1105,8 @@ input[type=radio] {
 .texto-boda div:last-child {
     font-size: 150px;
     text-align: center;
-    font-family: 'Inspiration', cursive;
+    /* font-family: 'Inspiration', cursive; */
+    font-family: LoveLanguage, cursive;
     font-weight: 200;
 
 }
@@ -1143,7 +1150,8 @@ input[type=radio] {
 }
 
 .font-date {
-    font-family: 'Inspiration', cursive;
+    /* font-family: 'Inspiration', cursive; */
+    font-family: LoveLanguage, cursive;
     font-size: 80px;
 
 }
@@ -1247,34 +1255,39 @@ input[type=radio] {
 .conten-nuestra-hgistorua {
     display: flex;
     justify-content: row;
+    position: relative;
 }
 
-.conten-nuestra-hgistorua div:first-child {
+.conten-nuestra-hgistorua .fist-content {
     width: 100px;
     position: relative;
 }
 
-.conten-nuestra-hgistorua div:last-child {
+.conten-nuestra-hgistorua .carousel-new {
     width: 100%;
+    /* z-index: 100; */
 }
 
 .div-title-nuestra {
-    /* transform: rotate(-90deg) translate(30%, 50%); */
-    transform: rotate(-90deg) translate(0%, 8%);
-    font-family: 'Inspiration', cursive;
-    font-size: 100px;
-    position: absolute !important;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    width: 500px !important;
-
+    /*transform: rotate(-90deg) translate(30%, 50%); */
+    transform: rotate(-90deg) translate(-82%, -109%);
+    /* font-family: 'Inspiration', cursive; */
+    font-family: LoveLanguage, cursive;
+    font-size: 85px;
+    /* position: absolute !important; */
+    /* bottom: 0; */
+    /* top: 0; */
+    width: 510px !important;
+    font-family: LoveLanguage, cursive;
+    font-size: 90px;
+    /* margin-top: -50px;*/
+        
 }
 
 
 .titleVestimenta {
-    font-family: 'Inspiration', cursive;
+    /* font-family: 'Inspiration', cursive; */
+    font-family: LoveLanguage, cursive;
     font-size: 70px;
     margin-top: -50px;
 }
@@ -1423,7 +1436,8 @@ input[type=radio] {
 
     .div-title-nuestra {
         transform: none;
-        font-family: 'Inspiration', cursive;
+        /* font-family: 'Inspiration', cursive; */
+        font-family: LoveLanguage, cursive;
         font-size: 70px;
         width: 100%;
         position: relative !important;
@@ -1525,8 +1539,8 @@ input[type=radio] {
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px #8e8e8e;
-      transition: all 0.5s ease-out;
-    
+    transition: all 0.5s ease-out;
+
 }
 
 .boton a:hover {
@@ -1588,4 +1602,85 @@ input[type=radio] {
     100% {
         opacity: 1.0;
     }
+}
+
+.carousel-new {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ECF0F1
+}
+
+.carousel-new div {
+    flex: auto;
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#content-carousel-new {
+    width: 150px;
+}
+
+
+
+.carousel-new div:first-child {
+    width: 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.carousel-new div:last-child {
+    width: 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.img-carousel {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px #aba9a9;
+}
+
+
+#imgC001 {
+    display: block;
+}
+
+#imgC002 {
+    display: none;
+}
+
+#imgC003 {
+    display: none;
+}
+
+#imgC004 {
+    display: none;
+    margin-top: 180px;
+    margin-bottom:180px
+}
+
+#imgC005 {
+    display: none;
+}
+
+#imgC006 {
+    display: none;
+    margin-top: 180px;
+    margin-bottom:180px
+}
+
+#imgC007 {
+    display: none;
+}
+
+#imgC008 {
+    display: none;
 }

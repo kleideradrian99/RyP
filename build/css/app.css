@@ -1427,6 +1427,9 @@ input[type=radio] {
     .carrusel img {
         width: 200px !important;
     }
+    .carrusel .dif img {
+        width: 300px !important;
+    }
 
     .paddin-iframe-movil {
         padding: 130% 0 0 0 !important;

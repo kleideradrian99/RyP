@@ -1434,7 +1434,12 @@ input[type=radio] {
     width: 750xp;
 }
 
+/* TABLET */
 @media (max-width:768px) {
+
+    .map-here {
+        margin-left: 0px;
+    }
 
     .carrusel {
         height: 350px !important;

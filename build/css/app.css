@@ -1363,8 +1363,17 @@ input[type=radio] {
     border: none;
 } */
 
+.carrusel {
+    height: 600px !important;
+}
+
+
 /* CELULAR */
 @media (max-width:375px) {
+    .carrusel {
+        height: 200px !important;
+    }
+
     .img-principal {
         filter: grayscale(1);
         right: 0px;
@@ -1405,7 +1414,19 @@ input[type=radio] {
     padding: 56.25% 0 0 0 !important;
 }
 
+.dif img {
+    width: 750xp;
+}
+
 @media (max-width:768px) {
+
+    .carrusel {
+        height: 350px !important;
+    }
+
+    .carrusel img {
+        width: 200px !important;
+    }
 
     .paddin-iframe-movil {
         padding: 130% 0 0 0 !important;

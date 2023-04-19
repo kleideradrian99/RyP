@@ -94,9 +94,6 @@ label {
     margin: 0 auto;
 }
 
-.contenedor2 {
-    margin-top: 3%;
-}
 
 .contenido {
     width: 100%;
@@ -1696,8 +1693,6 @@ input[type=radio] {
 
 #imgC004 {
     display: none;
-    margin-top: 180px;
-    margin-bottom: 180px
 }
 
 #imgC005 {
@@ -1710,8 +1705,34 @@ input[type=radio] {
 
 #imgC007 {
     display: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #imgC008 {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#imgC009 {
+    display: none;
+}
+
+#imgC010 {
+    display: none;
+}
+
+#imgC011 {
+    display: none;
+}
+
+#imgC012 {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#imgC013 {
     display: none;
 }
